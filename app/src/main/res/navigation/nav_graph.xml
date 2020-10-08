@@ -29,6 +29,8 @@
     <fragment
         android:id="@+id/summaryFragment"
         android:name="com.example.madlevel3task1.SummaryFragment"
+        app:popUpToInclusive="true"
+        app:popUpTo="@id/startFragment"
         android:label="summary_fragment"
         tools:layout="@layout/summary_fragment" >
         <action
